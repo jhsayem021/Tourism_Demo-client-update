@@ -1,7 +1,7 @@
 
 ## SA Tourism Ltd
 
-# You can find the live site link here (https://sa-tourism-planner.web.app/)
+# You can find the live site link here (https://tourism-planner-29a5f.web.app)
 
 ## Behind The Wall
 
