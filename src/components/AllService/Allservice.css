@@ -1,0 +1,26 @@
+.service-product{
+    margin: 10px;
+    padding: 30px;
+    background-color: rgba(160, 160, 236, 0.473);
+    border-radius: 20px;
+}
+.service-product-name{
+    color: blue;
+    font-weight: 400;
+}
+.btn-regular{
+    background-color: goldenrod;
+    font-weight: 500;
+    color: black;
+    width: 150px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
