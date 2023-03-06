@@ -11,19 +11,19 @@ const Orders = () => {
     
     useEffect(() => {
         fetch(`https://tourism-demo-server-site-main-update.vercel.app/booked_service?email=${user.email}`, {
-            headers: {
-                'authorization': `Bearer ${localStorage.getItem('idToken')}`
-            }
+            // headers: {
+            //     'authorization': `Bearer ${localStorage.getItem('idToken')}`
+            // }
         })
             .then(res => {
-                if (res.status === 200) {
-                    console.log(res.status);
-                    return res.json();
-                }
-                else if (res.status === 401) {
+                // if (res.status === 200) {
+                //     console.log(res.status);
+                //     return res.json();
+                // }
+                // else if (res.status === 401) {
                     console.log(res.status);
                     history.push('/login');
-                }
+                // }
 
             })
             .then(data => setOrders(data.order));

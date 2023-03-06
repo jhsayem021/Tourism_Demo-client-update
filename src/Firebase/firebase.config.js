@@ -1,10 +1,10 @@
 console.log(process.env);
 const firebaseConfig = {
-    apiKey: "AIzaSyA3e0_b35SOKVeXjTcgCFjIGReFGphA-8g",
-    authDomain: "sa-tourism-planner.firebaseapp.com",
-    projectId: "sa-tourism-planner",
-    storageBucket: "sa-tourism-planner.appspot.com",
-    messagingSenderId: "284789714889",
-    appId: "1:284789714889:web:4c3341240ce65237de8218"
+  apiKey: "AIzaSyBcU3FKR1hsPZAajAJNmll-W7SHjtXppo4",
+  authDomain: "tourism-planner-29a5f.firebaseapp.com",
+  projectId: "tourism-planner-29a5f",
+  storageBucket: "tourism-planner-29a5f.appspot.com",
+  messagingSenderId: "987873150396",
+  appId: "1:987873150396:web:1f52db486886b168cd97b9"
   };
     export default firebaseConfig;
